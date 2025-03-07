@@ -1,0 +1,12 @@
+# YOLO Dataset Configuration File for Single-Class Training
+
+# Paths to dataset directories
+train: /mnt/nvme_disk2/User_data/nb57077k/cardiovision/phase2/Dataset/aorta_data/images/train  # Replace with actual train image folder path
+val: /mnt/nvme_disk2/User_data/nb57077k/cardiovision/phase2/Dataset/aorta_data/images/val     # Replace with actual validation image folder path
+
+# Number of classes
+nc: 1  # Only one class
+
+# Class names
+names:
+  0: Asc Aorta  # The only class
